@@ -1,3 +1,6 @@
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+index = 0
+
 def valid_move?(board, index)# code your #valid_move? method here
 ((index >= 0) && (index <= 8) && !(position_taken?))
 
