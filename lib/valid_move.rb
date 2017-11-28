@@ -1,8 +1,8 @@
 
 
-def valid_move?(board = [" ", " ", " ", " ", " ", " ", " ", " ", " "], index = 0)# code your #valid_move? method here
-((index >= 0) && (index <= 8) && (position_taken))
-
+def valid_move?(board, index)# code your #valid_move? method here
+if (position_taken)
+  (index >= 0) && (index <= 8)
 end
 # re-define your #position_taken? method here, so that you can use it in the #valid_move? method above.
 def position_taken(board, index)
